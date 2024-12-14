@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "arjan-software-design"
+version = "0.1.0"
+description = ""
+authors = ["vladyslavmovchan <movchan2601@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+psutil = "^6.1.0"
+thingspeak = "^1.0.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
